@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kahakish.shopping.com.kahakish.home">
+
+    <item
+        android:id="@+id/tap1"
+        android:title="@string/tapone"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/tap2"
+        android:title="@string/taptwo"
+        android:icon="@drawable/ic_view_headline_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/tap3"
+        android:title="@string/tapthree"
+        android:icon="@drawable/ic_branding_watermark_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/tap4"
+        android:title="@string/tapfour"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/tap5"
+        android:title="@string/tapfive"
+        android:icon="@drawable/ic_person_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

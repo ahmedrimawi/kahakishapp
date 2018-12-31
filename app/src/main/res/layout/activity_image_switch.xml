@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#f0f0f0"
+        />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageSwitcher"
+            android:layout_alignEnd="@+id/imageSwitcher"
+            android:scaleType="fitEnd"
+            android:layout_marginRight="10dp"
+            android:background="@color/actionBar"
+            android:text="Next ->"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            />
+
+
+
+</RelativeLayout>

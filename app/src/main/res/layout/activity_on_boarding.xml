@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:id="@+id/forwardBtn_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.04"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_marginTop="@dimen/brand_title"
+            >
+
+            <ImageView
+            android:id="@+id/forwardBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_arrow_forward_black_24dp"
+            android:visibility="invisible"
+            android:layout_marginEnd="8dp"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sliderpager_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.45"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_below = "@+id/forwardBtn_bar"
+            >
+
+           <android.support.v4.view.ViewPager
+             android:id="@+id/sliderpager"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+           />
+
+            <View
+                android:id="@+id/pageV"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha=".5"
+                android:background="@android:color/white"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SlideDots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+
+            />
+
+
+
+    <LinearLayout
+        android:id="@+id/aboveButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below = "@+id/SlideDots_bar"
+        >
+
+
+            <Button
+                android:id="@+id/signupBtn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_login"
+                android:text="@string/onboarding_signup"
+                android:textAllCaps="false"
+                android:textColor="@color/field_hint"
+                />
+
+            <Button
+                android:id="@+id/signinBtn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_login"
+                android:text="@string/onboarding_signin"
+                android:textAllCaps="false"
+                android:textColor="@color/field_hint"
+                android:layout_marginTop="5dp" />
+
+             <TextView
+                android:id="@+id/orslpit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Or login using scoial media"
+                android:textColor="#666666"
+                android:textSize="16dp"
+                 android:layout_marginTop="15dp"
+                 />
+
+
+             <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/orslpit"
+                 />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

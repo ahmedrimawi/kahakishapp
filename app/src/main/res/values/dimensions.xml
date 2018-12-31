@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textsize">6sp</dimen>
+    <dimen name="brand_title">10sp</dimen>
+    <dimen name="brands_desc">8sp</dimen>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="230dp"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    card_view:cardElevation="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:id="@+id/itemImageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/smartphone"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:orientation="vertical"
+            android:layout_below="@id/itemImageLayout"
+
+            >
+
+                <LinearLayout
+                    android:id="@+id/aboveTextLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+
+                    >
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Kahakish"
+            android:layout_marginStart="5dp"
+            android:maxLength="30"
+            android:textStyle="bold"
+
+
+            />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/belowTextLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_below="@id/aboveTextLayout"
+
+                    >
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Kahakish"
+            android:layout_marginStart="5dp"
+            android:maxLength="20"
+            />
+                </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
