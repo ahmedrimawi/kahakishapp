@@ -20,7 +20,7 @@
             android:id="@+id/forwardBtn_bar"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.04"
+            android:layout_weight="0.1"
             android:orientation="vertical"
             android:gravity="end"
             android:layout_marginTop="@dimen/brand_title"
@@ -40,7 +40,7 @@
             android:id="@+id/sliderpager_bar"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.45"
+            android:layout_weight="2"
             android:orientation="vertical"
             android:gravity="center"
             android:layout_below = "@+id/forwardBtn_bar"
@@ -79,7 +79,7 @@
         android:id="@+id/aboveButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.35"
+        android:layout_weight="1"
         android:orientation="vertical"
         android:gravity="center"
         android:layout_below = "@+id/SlideDots_bar"
@@ -89,9 +89,9 @@
             <Button
                 android:id="@+id/signupBtn"
                 style="?android:attr/borderlessButtonStyle"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/round_button_login"
+                android:background="@drawable/round_button"
                 android:text="@string/onboarding_signup"
                 android:textAllCaps="false"
                 android:textColor="@color/field_hint"
@@ -100,9 +100,8 @@
             <Button
                 android:id="@+id/signinBtn"
                 style="?android:attr/borderlessButtonStyle"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/round_button_login"
                 android:text="@string/onboarding_signin"
                 android:textAllCaps="false"
                 android:textColor="@color/field_hint"
@@ -110,21 +109,19 @@
 
              <TextView
                 android:id="@+id/orslpit"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Or login using scoial media"
-                android:textColor="#666666"
+                android:text="@string/social"
+                android:textColor="@color/social"
                 android:textSize="16dp"
-                 android:layout_marginTop="15dp"
+                 android:gravity="center"
                  />
-
 
              <com.facebook.login.widget.LoginButton
                 android:id="@+id/login_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_below="@+id/orslpit"
+                style="@style/FacebookLoginButton"
                  />
         </LinearLayout>
 

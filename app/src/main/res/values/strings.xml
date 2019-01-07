@@ -3,17 +3,25 @@
 
     <string name="splash_app_name"><font size="11">KA AKISH</font></string>
 
-    <string name="onboarding_signup"><font size="18">Registration</font></string>
-    <string name="onboarding_signin"><font size="18">Log In</font></string>
+    <string name="onboarding_signup"><font size="14">Registration</font></string>
+    <string name="onboarding_signin"><font size="14">Log In</font></string>
 
-    <string name="registration_title"><font size="42">CREATE</font><font size="18">YOUR ACCOUNT</font></string>
+    <string name="registration_title"><font size="24">CREATE ACCOUNT</font></string>
+    <string name="registration_account"><font size="18"> YOUR ACCOUNT</font></string>
     <string name="name_hint"><font size="6">Name</font></string>
     <string name="email_hint"><font size="6">Email Address</font></string>
     <string name="pass_hint"><font size="6">Password</font></string>
     <string name="confirmpass_hint"><font size="6">Confirm Password</font></string>
     <string name="follow_signup">By tapping <b>Sign Up</b> you agree to the</string>
+    <string name="alreadyhaveaccount">Already have an account?</string>
+
     <string name="terms_link"><u>terms &amp; conditions</u></string>
-    <string name="signup"><font size="18">Create New Account</font></string>
+    <string name="siginhaveaccount"><u> Sign In</u></string>
+    <string name="signup"><font size="14">Create New Account</font></string>
+
+    <string name="social"><font size="14">Or login using scoial media</font></string>
+
+
 
     <string name="firstbannertext"><font size="16"><b>Kick up the</b>\n</font><font size="42"><b>COOL\n</b></font><font size="14">Adidas Shoes</font></string>
 
@@ -72,6 +80,7 @@
 
     <string name="facebook_app_id">1080108828817160</string>
     <string name = "fb_login_protocol_scheme" > fb1080108828817160 </string>
+    <string name="label_fragment_login_sign_in_with_facebook" >Login with Facebook</string>
 
 
 </resources>

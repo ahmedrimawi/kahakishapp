@@ -32,11 +32,12 @@
     </style>
 
     <style name="FacebookLoginButton">
-        <item name="android:textSize">@dimen/smallTxtSize</item>
-        <item name="android:background">@drawable/facebook_signin_btn</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginBottom">10dp</item>
-        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:text">@string/label_fragment_login_sign_in_with_facebook</item>
+
     </style>
 
     <dimen name="smallTxtSize" />
